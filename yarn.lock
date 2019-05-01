@@ -4122,15 +4122,33 @@ filestack-js@^1.0.1:
     tcomb-validation "^3.4.1"
     tslib "^1.9.3"
 
+filestack-js@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/filestack-js/-/filestack-js-2.0.7.tgz#ea28ac2be53d655e5d7223bc6c28f09846b30b7a"
+  integrity sha512-roKhErvpFy0pne4uQj+rGS6O4A1ve2nWB222gKXgXt7N3pIFPKgXOsp3u2uijQwXHZRpyskHbX6BAutfmmcFHQ==
+  dependencies:
+    abab "^2.0.0"
+    file-type "^8.1.0"
+    filestack-loader "^3.0.4"
+    is-svg "^3.0.0"
+    isutf8 "^2.0.2"
+    jsonschema "^1.2.4"
+    spark-md5 "^3.0.0"
+    superagent "^3.8.3"
+    tcomb-validation "^3.4.1"
+    tslib "^1.9.3"
+
 filestack-loader@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/filestack-loader/-/filestack-loader-3.0.4.tgz#f387d14b4b85329f67361f314fa04b5ae41a57a0"
   integrity sha512-b6uOCWHd1gM0+5KBA1rA4qfEgTqyTr5umLM4bBWT4z98WUwxa6KzCiq+z0VnR4rN+NCx6kyZ/wLXjGcPU32TxQ==
 
-filestack-react@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/filestack-react/-/filestack-react-2.0.0.tgz#3af1d8e8b3da0ab16a92494a303f0f3c6e2e8f66"
-  integrity sha512-+lOqPx2XYsvm3pJutjlDTyG8fdrJAefN0QLi8crJfwI1dJffOjK84dnQJHQ9aQzxF37A1cHI8ZbPscv7w6bRTA==
+filestack-react@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/filestack-react/-/filestack-react-2.0.5.tgz#8c88e587fff64e5efe72eeebc6d2cec1b46ddd20"
+  integrity sha512-8ZRWyekNuA9rDoKeh8rA+FL/6sqAejwahuaED9jFps+qhnwgI6v2ZNeFj/149pmrXKP6Pu4J1F1P5xWGCWIcMQ==
+  dependencies:
+    filestack-js "^2.0.7"
 
 fill-range@^2.1.0:
   version "2.2.4"
@@ -6059,6 +6077,11 @@ jsonfile@^4.0.0:
 jsonify@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
+
+jsonschema@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.2.4.tgz#a46bac5d3506a254465bc548876e267c6d0d6464"
+  integrity sha512-lz1nOH69GbsVHeVgEdvyavc/33oymY1AZwtePMiMj4HZPMbP5OIKK3zT9INMWjwua/V4Z4yq7wSlBbSG+g4AEw==
 
 jsprim@^1.2.2:
   version "1.4.1"
